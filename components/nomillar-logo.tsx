@@ -12,7 +12,7 @@ export function NomillarLogo({ variant = "full", className = "" }: NomillarLogoP
         <img
           src="/logo.png"
           alt="Nomillar"
-          className="h-12 min-h-[48px] w-auto max-w-[200px] object-contain drop-shadow-md transition-all dark:drop-shadow-[0_0_12px_rgba(255,165,30,0.35)]"
+          className="h-12 min-h-[48px] w-auto max-w-[200px] object-contain drop-shadow-md transition-all dark:drop-shadow-[0_0_12px_rgba(232,65,66,0.35)]"
         />
       </div>
     )
@@ -23,10 +23,10 @@ export function NomillarLogo({ variant = "full", className = "" }: NomillarLogoP
       <img
         src="/logo.png"
         alt="Nomillar"
-        className="h-11 min-h-[44px] w-auto max-w-[220px] object-contain drop-shadow-sm transition-all dark:drop-shadow-[0_0_10px_rgba(255,165,30,0.3)]"
+        className="h-11 min-h-[44px] w-auto max-w-[220px] object-contain drop-shadow-sm transition-all dark:drop-shadow-[0_0_10px_rgba(232,65,66,0.3)]"
       />
       <span className="text-lg font-bold tracking-tight text-foreground">Nomillar</span>
-      <div className="h-2 w-2 rounded-full bg-[#F5A623] animate-ping-custom" />
+      <div className="h-2 w-2 rounded-full bg-primary animate-ping-custom" />
     </div>
   )
 }

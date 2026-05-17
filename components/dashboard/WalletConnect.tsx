@@ -2,7 +2,7 @@
  * components/dashboard/WalletConnect.tsx
  * BotÃ³n de conexiÃ³n para Core Wallet con estado visual completo.
  * 
- * Reemplaza cualquier referencia a Stellar keypair en el header del dashboard.
+ * Botón de conexión para Core Wallet en el header del dashboard.
  */
 
 "use client"

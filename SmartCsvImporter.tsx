@@ -237,7 +237,7 @@ export function SmartCsvImporter({ onDisperse, isDispersing, escrowReady }: Smar
             <h3 className="text-lg font-medium mb-1">Cargar Nómina o Pagos</h3>
             <p className="text-sm text-muted-foreground mb-4">Arrastra tu archivo CSV aquí o haz clic para buscar.</p>
             <p className="text-xs text-muted-foreground mb-4">
-
+              Columnas requeridas: <span className="font-mono text-primary">id, name, wallet, amount</span>
             </p>
             <button
               onClick={() => inputRef.current?.click()}

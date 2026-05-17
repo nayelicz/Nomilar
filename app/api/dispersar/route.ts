@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"
 
-/** En Vercel: sube el lÃ­mite para tx Stellar + recibos (plan Hobby permite hasta 60s). */
+/** En Vercel: aumenta el límite de timeout para operaciones de dispersión en Avalanche (plan Hobby permite hasta 60s). */
 export const maxDuration = 60
 
 /**
